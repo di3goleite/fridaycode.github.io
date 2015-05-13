@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Felix Felicis</title>
+    <link href="http://lab.lepture.com/liquidluck/feed.xml" rel="self" />
+    <link href="http://lab.lepture.com/liquidluck/" />
+    <updated>2015-05-13T09:54:23+08:00</updated>
+    <id>http://lab.lepture.com/liquidluck/</id>
+    <entry>
+        <title type="html"><![CDATA[Hello World]]></title>
+        <author><name>di3goleite</name></author>
+        <link href="http://lab.lepture.com/liquidluck/2012/helloworld.html"/>
+        <published>2012-06-11T00:00:00+08:00</published>
+        <updated>2015-05-13T09:54:23+08:00</updated>
+        <id>http://lab.lepture.com/liquidluck/2012/helloworld.html</id>
+        <category scheme="http://lab.lepture.com/liquidluck/tag/python/" term="python" label="python" />
+        <category scheme="http://lab.lepture.com/liquidluck/tag/javascript/" term="javascript" label="javascript" />
+        <content type="html" xml:base="http://lab.lepture.com/liquidluck/" xml:lang="en">
+            <![CDATA[ <p>Hello World in Python</p>
+<div class="highlight"><pre><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s">&quot;World&quot;</span><span class="p">):</span>
+    <span class="k">print</span> <span class="s">&quot;Hello </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="n">name</span>
+</pre></div>
+<p>Hello World in JavaScript</p>
+<div class="highlight"><pre><span class="kd">function</span> <span class="nx">hello</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> <span class="nx">name</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+]]>
+        </content>
+    </entry>
+</feed>
